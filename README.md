@@ -41,8 +41,12 @@ For MikroTik 6.48.6
 For MikroTik 7.10.2
 
 ```bash
-  curl -fsSL https://raw.githubusercontent.com/khanif/Install-MikroTik-CHR-on-VPS/main/installarm.sh | sudo bash
   bash -c "$(curl -L https://raw.githubusercontent.com/azadrahorg/Install-MikroTik-CHR-on-VPS/main/mik78.sh)"
+```
+For MikroTik 7. arm
+
+```bash
+bash -c "$(curl -L https://raw.githubusercontent.com/khanif/chr-install/main/installarm.sh)"
 ```
 
 After install be sure to turn off the server and turn on again
